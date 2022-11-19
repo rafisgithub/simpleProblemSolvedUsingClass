@@ -1,8 +1,9 @@
 #include<iostream>
 using namespace std;
 class PrimeNum{
-	public:
+	private:
 		int n;
+	public:
 		void checkPrime(int x){
 			int counter=0;
 			n=x;
